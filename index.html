@@ -404,6 +404,7 @@
                         <svg class="label-component-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-person-black"></use>
                         </svg>
+                    
                     </div>
                 </div>
                 <div class="inputs">
@@ -426,20 +427,24 @@
                 </div>
                 <div class="inputs-comment">
                     <label class="label-name-component" for="user-comment">Comment</label>
+                    <textarea class="label-component-instance-rectangle" name="user-comment" id="user-comment" placeholder="Text input">
+                    </textarea>
                     <div class="label-component-rectangle">
-                        <textarea class="label-component-instance-rectangle" name="user-comment" id="user-comment" placeholder="Text input">
-                        </textarea>
+                        
                     </div>
                 </div>
                 <div class="inputs-accept">
                     <input class="check-box visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
-                    <label class="check-box-instance" for="user-privacy">I accept the terms and conditions of the
-                        <a class="user-privacy-policy-link" href=""><span class="user-privacy-policy">Privacy Policy</span></a>
-                        <svg class="check-box-icon" width="10" height="8">
-                            <use href="./images/icons.svg#icon-checkbox"></use>
-                        </svg>
+                    <span class="user-privacy-policy">
+                            <svg class="check-box-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-checkbox"></use>
+                            </svg>
+                        </span>
+                    <label class="check-box-instance" for="user-privacy">I accept the terms and conditions of the  
+                        <a class="user-privacy-policy-link" href="">Privacy Policy</a>
                     </label>
                 </div>
+                <button class="main-page-button" type="button">Send</button>
             </form>
         </div>
     </div>
