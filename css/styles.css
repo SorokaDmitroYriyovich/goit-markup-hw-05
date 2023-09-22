@@ -679,3 +679,6 @@ a {
 .user-privacy-policy-link {
     color: #4d5ae5;
 }
+.main-page-button {
+    display: block;
+}
