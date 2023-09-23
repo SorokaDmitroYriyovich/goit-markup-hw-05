@@ -687,16 +687,16 @@ a {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-    color: tomato;
+    
 }
-:focus.check-box {
+:focus.check-box + .check-box-icon {
     fill: #4D5AE5;
 }
 .check-box:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-    color: tomato;
+    
 }
 :focus.check-box-icon {
     fill: #4D5AE5;
