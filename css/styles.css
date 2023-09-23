@@ -682,16 +682,19 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
-
+}
+.user-privacy-policy:checked {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+    color: tomato;
 }
+    
 .check-box {
    
 }
-.check-box-icon {
-
+:focus.check-box-icon {
+    fill: #4D5AE5;
 }
 .user-privacy-policy-link {
     color: #4d5ae5;
