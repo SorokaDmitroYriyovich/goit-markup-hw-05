@@ -691,7 +691,7 @@ a {
     fill: #F4F4FD;
     
 }
-.check-box:focus 
+.input:focus 
 + .check-box-icon {
     fill: #4D5AE5;
 }
