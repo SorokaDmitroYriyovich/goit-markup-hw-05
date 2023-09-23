@@ -683,7 +683,9 @@ a {
     justify-content: center;
     fill: transparent;
 }
-.check-box:checked {
+.check-box:checked 
++ .check-box-instance 
+> .user-privacy-policy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
