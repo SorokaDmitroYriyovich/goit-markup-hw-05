@@ -691,8 +691,7 @@ a {
     fill: #F4F4FD;
     
 }
-:focus.check-box > 
-.check-box-icon {
+:focus.check-box-icon {
     fill: #4D5AE5;
 }
 .user-privacy-policy-link {
