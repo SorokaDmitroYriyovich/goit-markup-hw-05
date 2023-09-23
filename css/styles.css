@@ -689,14 +689,14 @@ a {
     fill: #F4F4FD;
     
 }
-:focus.check-box + .check-box-icon {
-    fill: #4D5AE5;
-}
-.check-box:checked {
+
+:focus.check-box + .user-privacy-policy {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
-    
+}
+.check-box:checked + .user-privacy-policy {
+    fill: #4D5AE5;
 }
 :focus.check-box-icon {
     fill: #4D5AE5;
